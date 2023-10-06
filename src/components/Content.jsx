@@ -78,10 +78,10 @@ const Content = () => {
             src={meme.randomImage}
             alt="meme image"
           />
-          <h2 className="top-text absolute top-8 text-white text-3xl font-['Impact'] uppercase tracking-tighter shadow-text">
+          <h2 className="top-text absolute top-8 text-white text-4xl font-['Impact'] uppercase tracking-tighter shadow-text">
             {meme.topText}
           </h2>
-          <h2 className="bottom-text absolute bottom-8 text-white text-3xl font-['Impact']  uppercase tracking-tighter shadow-text">
+          <h2 className="bottom-text absolute bottom-8 text-white text-4xl font-['Impact']  uppercase tracking-tighter shadow-text">
             {meme.bottomText}
           </h2>
         </div>
