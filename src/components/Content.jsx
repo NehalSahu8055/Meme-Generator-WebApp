@@ -6,7 +6,7 @@ const Content = () => {
   const memeImgData = {
     topText: "",
     bottomText: "",
-    randomImage: "http://i.imgflip.com/1bij.jpg",
+    randomImage: "meme-default.jpg",
   };
 
   const [meme, setMeme] = useState(memeImgData);
@@ -37,6 +37,7 @@ const Content = () => {
 
   return (
     <main className="font-['Karla'] shadow-2xl rounded-b-xl">
+      <h1 className="sr-only">Meme Generator WebApp</h1>
       <div className="meme p-9">
         <form className="flex flex-col" id="form" onSubmit={getMemeImage}>
           <div className="inputs mx-auto w-full grid sm:grid-cols-2 gap-3">
@@ -71,17 +72,17 @@ const Content = () => {
           </button>
         </form>
 
-        <div className="meme relative flex justify-center mt-9">
+        <div className="meme relative flex justify-center mt-9 text-center">
           <img
             className="mx-auto"
             width="400"
             src={meme.randomImage}
             alt="meme image"
           />
-          <h2 className="top-text absolute top-8 text-white text-4xl font-['Impact'] uppercase tracking-tighter shadow-text">
+          <h2 className="top-text text-white w-[23rem] text-4xl absolute top-6  font-['Impact'] uppercase tracking-tighter shadow-text">
             {meme.topText}
           </h2>
-          <h2 className="bottom-text absolute bottom-8 text-white text-4xl font-['Impact']  uppercase tracking-tighter shadow-text">
+          <h2 className="bottom-text text-white w-23[rem] absolute bottom-6 text-4xl font-['Impact']  uppercase tracking-tighter shadow-text">
             {meme.bottomText}
           </h2>
         </div>
