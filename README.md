@@ -2,8 +2,8 @@
 
 ### 🔗Links
 
-- **Solution URL:** [View Solution]()
-- **Live Site URL:** [Try it Live]()
+- **Solution URL:** [View Solution](https://github.com/NehalSahu8055/Meme-Generator-WebApp)
+- **Live Site URL:** [Try it Live](https://meme-generator-webapp-nehal.netlify.app/)
 
 ### 🛠️ Built with
 
